@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
   export default function Home() {
   return (
@@ -128,6 +129,102 @@ import Image from "next/image";
       </article>
       </div>
   </div>
+
+
+</section>
+
+<section className="bg-[#00379e12] pt-[90px] pb-[90px]">
+<div className="container m-auto">
+<h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center">Meet Our  <span className="text-[#00379E]">Licensed Experts </span></h3>
+      <p className="text-[#1B1B1B] text-[18px] leading-30px] font-[400] text-center mt-[15px]">Connect with a community of dedicated professionals. Tailored for consultants, our <br/>platform fosters collaboration and inspiration for meaningful interactions.</p>
+     
+      <div className="mx-auto flex justify-center gap-x-2 mt-[30px] mb-[30px]">
+        <span className="bg-[#00379E] rounded-[100px] border-[1px] border-[#00379E] px-[40px] py-[13px] text-[16px] text-[#fff]">Tech</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[40px] py-[13px] text-[16px] text-[#00379E]">Design</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[40px] py-[13px] text-[16px] text-[#00379E]">Accounts</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[40px] py-[13px] text-[16px] text-[#00379E]">SEO</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[40px] py-[13px] text-[16px] text-[#00379E]">Medical</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[40px] py-[13px] text-[16px] text-[#00379E]">Product</span>
+    </div>
+    <div className="max-w-[860px] mx-auto flex justify-center gap-x-2  mb-[40px]">
+      <input className="bg-[#fff] text-[16px] text-[#1B1B1B] h-[52px] rounded-[100px] px-[30px] font-[400] w-[100%]" type="text" placeholder="Search a consultant..."/>
+      <button className="bg-[#00379E] rounded-[100px] border-[1px] border-[#00379E] px-[40px] py-[13px] text-[16px] text-[#fff]" type="submit">Search</button>
+    </div>
+      <div className="mx-auto flex gap-x-5  lg: lg:grid-cols-3">
+      <article className="bg-[#fff] rounded-[15px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[33.33%] ">
+        <div className="relative">
+        <Image
+        className=""
+      src="/assets/images/client.png"
+      width={500}
+      height={226}
+      alt=""
+    />
+    <span className="bg-[#ff7b00c4] rounded-[100px] py-[8px] px-[18px] text-[#fff] text-[15px] absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
+        </div>
+     <div className="px-[25px] py-[25px]">
+    <h5 className="text-[20px] text-[#1B1B1B] font-[600]">Christoph Schneider</h5>
+    <h6 className="text-[15px] text-[#1B1B1B] font-[400] my-[3px]">Fagikasade krovung monoligt</h6>
+    <label className="text-[15px] text-[#00379E] font-[400] ">Product & Tech</label>
+    <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">Javascript</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">HTML</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">CSS</span>
+    </div>
+    <a href="#" className="flex items-center justify-center bg-[#00379E] rounded-[100px] px-[14px] py-[6px] text-[16px] text-[#fff] text-center font-[500] w-[100%] h-[52px]">Book Now</a>
+    </div>
+        </article>
+        <article className="bg-[#fff] rounded-[15px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[33.33%] ">
+        <div className="relative">
+        <Image
+        className=""
+      src="/assets/images/client.png"
+      width={500}
+      height={226}
+      alt=""
+    />
+    <span className="bg-[#ff7b00c4] rounded-[100px] py-[8px] px-[18px] text-[#fff] text-[15px] absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
+        </div>
+     <div className="px-[25px] py-[25px]">
+    <h5 className="text-[20px] text-[#1B1B1B] font-[600]">Christoph Schneider</h5>
+    <h6 className="text-[15px] text-[#1B1B1B] font-[400] my-[3px]">Fagikasade krovung monoligt</h6>
+    <label className="text-[15px] text-[#00379E] font-[400] ">Product & Tech</label>
+    <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">Javascript</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">HTML</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">CSS</span>
+    </div>
+    <a href="#" className="flex items-center justify-center bg-[#00379E] rounded-[100px] px-[14px] py-[6px] text-[16px] text-[#fff] text-center font-[500] w-[100%] h-[52px]">Book Now</a>
+    </div>
+        </article>
+        <article className="bg-[#fff] rounded-[15px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[33.33%] ">
+        <div className="relative">
+        <Image
+        className=""
+      src="/assets/images/client.png"
+      width={500}
+      height={226}
+      alt=""
+    />
+    <span className="bg-[#ff7b00c4] rounded-[100px] py-[8px] px-[18px] text-[#fff] text-[15px] absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
+        </div>
+     <div className="px-[25px] py-[25px]">
+    <h5 className="text-[20px] text-[#1B1B1B] font-[600]">Christoph Schneider</h5>
+    <h6 className="text-[15px] text-[#1B1B1B] font-[400] my-[3px]">Fagikasade krovung monoligt</h6>
+    <label className="text-[15px] text-[#00379E] font-[400] ">Product & Tech</label>
+    <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">Javascript</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">HTML</span>
+        <span className="bg-[#E1ECFF] rounded-[100px] border-[1px] border-[#00379E] px-[14px] py-[6px] text-[12px] text-[#00379E]">CSS</span>
+    </div>
+    <a href="#" className="flex items-center justify-center bg-[#00379E] rounded-[100px] px-[14px] py-[6px] text-[16px] text-[#fff] text-center font-[500] w-[100%] h-[52px]">Book Now</a>
+    </div>
+        </article>
+        </div>
+        <div className="text-center mt-[40px]">
+        <a href="#" className="m-auto table items-center justify-center bg-[#00379E] rounded-[100px] px-[39px] py-[14px] text-[16px] text-[#fff] text-center font-[500]  h-[52px]">See All Consultants</a>
+        </div>
+</div>
 </section>
 </>
 
