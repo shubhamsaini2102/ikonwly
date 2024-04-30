@@ -23,3 +23,10 @@
     text-wrap: balance;
   }
 }
+body
+{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.container {
+  max-width: 1160px;
+}
