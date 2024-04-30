@@ -73,6 +73,62 @@ import Image from "next/image";
   </div>
     </div>
 </section>
+<section className="mt-[140px] pb-[120px]">
+<div className="container m-auto">
+      <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center">We're revolutionizing <span className="text-[#00379E]">educational & career <br/>consulting </span>to empower your journey.</h3>
+      <p className="text-[#1B1B1B] text-[18px] leading-30px] font-[400] text-center mt-[10px]">Our goal is to assist you in building your career, connect you with experts who share your aspirations.<br/> We help you reach your full potential through a transformative learning experience.</p>
+      <div className="flex items-center justify-center mt-[30px] mb-[50px]">
+              <a href="#" className="bg-[#00379E] text-[#fff] px-[43px] py-[19px] w-auto mr-[10px] rounded-[100px] text-[16px] font-[400]">Book a consultation</a>
+              <a href="#" className="bg-[#FF7A00] text-[#fff] px-[43px] py-[19px] w-auto mr-[10px] rounded-[100px] text-[16px] font-[400]">Become a Consultant</a>
+            </div>
+            <div className="mx-auto flex gap-x-5  lg: lg:grid-cols-4">
+      <article className="border-[#00379E] border-[2px] p-[20px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%] ">
+      <Image
+        className=""
+      src="/assets/images/icone.png"
+      width={48}
+      height={48}
+      alt=""
+    />
+    <h5 className="text-[#000] text-[20px] leading-[28px] font-[500] my-[10px]">Tailored Guidance</h5>
+    <span className="text-[#1B1B1B] text-[15px] leading-[23px] font-[400]">Receive personalized advice from experienced consultants to navigate your educational and professional journey in Germany.</span>
+      </article>
+      <article className="border-[#FF7A00] border-[2px] p-[20px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%]">
+      <Image
+        className=""
+      src="/assets/images/ictwo.png"
+      width={48}
+      height={48}
+      alt=""
+    />
+    <h5 className="text-[#000] text-[20px] leading-[28px] font-[500] my-[10px]">Industry Insights</h5>
+    <span className="text-[#1B1B1B] text-[15px] leading-[23px] font-[400]">Connect with professionals from high-caliber companies who can provide valuable insights and mentorship.</span>
+      </article>
+      <article className="border-[#00379E] border-[2px] p-[20px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%]">
+      <Image
+        className=""
+      src="/assets/images/icthree.png"
+      width={48}
+      height={48}
+      alt=""
+    />
+    <h5 className="text-[#000] text-[20px] leading-[28px] font-[500] my-[10px]">Flexible Options</h5>
+    <span className="text-[#1B1B1B] text-[15px] leading-[23px] font-[400]">Choose from a range of consultants and book sessions with experts at your own convenience.</span>
+      </article>
+      <article className="border-[#FF7A00] border-[2px] p-[20px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%]">
+      <Image
+        className=""
+      src="/assets/images/icfour.png"
+      width={48}
+      height={48}
+      alt=""
+    />
+    <h5 className="text-[#000] text-[20px] leading-[28px] font-[500] my-[10px]">Cost-Efficient</h5>
+    <span className="text-[#1B1B1B] text-[15px] leading-[23px] font-[400]">Access expert advice without the high costs associated with traditional consulting services.</span>
+      </article>
+      </div>
+  </div>
+</section>
 </>
 
   )

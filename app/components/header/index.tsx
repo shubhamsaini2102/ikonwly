@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
 <>
-   <header className="bg-[transparent] w-full fixed top-0 left-0 right-0 ">
+   <header className="bg-[transparent] w-full absolute top-0 left-0 right-0 ">
    <div className="container m-auto">
   <nav className="mx-auto flex  items-center justify-between py-4 " aria-label="Global">
     <div className="flex lg:flex-1">
