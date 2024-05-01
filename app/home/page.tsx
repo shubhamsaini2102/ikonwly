@@ -1,7 +1,10 @@
 import Image from "next/image";
+
 import Link from "next/link";
 
   export default function Home() {
+    const defaultContent =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
     <>
     <section className="">
@@ -13,8 +16,8 @@ import Link from "next/link";
       alt=""
     />
   <div className="container m-auto">
-      <div className="grid grid-cols-2 gap-4 items-center absolute top-[50%] translate-y-[-50%]">
-          <div className="">
+      <div className="grid gap-4 items-center absolute top-[65%] translate-y-[-50%] w-[60%]">
+          <div className="w-[100%]">
             <span className="text-[#FF7A00] text-[18px] font-[400] bg-[#ffffff12] border-[1px] border-[#FF7A00] rounded-[100px] px-[30px] py-[14px] mb-[10px]">Unlocking Opportunities</span>
             <h2 className="text-[88px] text-[#fff] font-[700]  leading-[88px] mt-[40px]"><span className="relative">
             iKnowly
@@ -47,6 +50,8 @@ import Link from "next/link";
       </div>
   </div>
 </section>
+
+{/* new section */}
 <section>
 <div className="container m-auto">
   <div className="bg-[#00379E] py-[30px] px-[130px] relative rounded-[15px] mt-[-95px]">
@@ -74,6 +79,8 @@ import Link from "next/link";
   </div>
     </div>
 </section>
+
+{/* new section */}
 <section className="mt-[140px] pb-[120px]">
 <div className="container m-auto">
       <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center">We're revolutionizing <span className="text-[#00379E]">educational & career <br/>consulting </span>to empower your journey.</h3>
@@ -133,6 +140,8 @@ import Link from "next/link";
 
 </section>
 
+
+{/* new section */}
 <section className="bg-[#00379e12] pt-[90px] pb-[90px]">
 <div className="container m-auto">
 <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center">Meet Our  <span className="text-[#00379E]">Licensed Experts </span></h3>
@@ -226,6 +235,266 @@ import Link from "next/link";
         </div>
 </div>
 </section>
+
+{/* new section */}
+<section className="bg-[#00379E] pt-[90px] pb-[80px]">
+<div className="container m-auto">
+<h3 className="text-[#fff] text-[48px] leading-[56px] font-[600] text-center">What our clients say!</h3>
+      <p className="text-[#fff] text-[18px] leading-30px] font-[400] text-center mt-[15px] mb-[40px]">Companies from across the globe have had fantastic experiences using theFront. <br/>Here’s what they have to say.</p>
+      <div className="mx-auto flex-wrap flex gap-x-4  lg: lg:grid-cols-3">
+      <article className="mb-[18px] bg-[#fff] border-[#00379E] border-[2px] p-[25px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
+      <Image
+        className="mb-[13px]"
+      src="/assets/images/star.png"
+      width={136}
+      height={24}
+      alt=""
+    />
+    <p className="text-[#000000] text-[16px] leading-[28px] font-[400]">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+    <div className="flex items-center mt-[16px] gap-x-3">
+    <Image
+        className=""
+      src="/assets/images/testo.png"
+      width={40}
+      height={40}
+      alt=""
+    />
+    <div className="">
+      <h5 className="text-[16px] text-[#000] font-[500]">Clara Bertoletti</h5>
+      <h6 className="text-[14px] text-[#000] font-[400]">MUI lover</h6>
+    </div>
+      </div>
+      </article>
+      <article className="mb-[18px] bg-[#fff] border-[#00379E] border-[2px] p-[25px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
+      <Image
+        className="mb-[13px]"
+      src="/assets/images/star.png"
+      width={136}
+      height={24}
+      alt=""
+    />
+    <p className="text-[#000000] text-[16px] leading-[28px] font-[400]">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+    <div className="flex items-center mt-[16px] gap-x-3">
+    <Image
+        className=""
+      src="/assets/images/testo.png"
+      width={40}
+      height={40}
+      alt=""
+    />
+    <div className="">
+      <h5 className="text-[16px] text-[#000] font-[500]">Clara Bertoletti</h5>
+      <h6 className="text-[14px] text-[#000] font-[400]">MUI lover</h6>
+    </div>
+      </div>
+      </article>
+      <article className="mb-[18px] bg-[#fff] border-[#00379E] border-[2px] p-[25px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
+      <Image
+        className="mb-[13px]"
+      src="/assets/images/star.png"
+      width={136}
+      height={24}
+      alt=""
+    />
+    <p className="text-[#000000] text-[16px] leading-[28px] font-[400]">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+    <div className="flex items-center mt-[16px] gap-x-3">
+    <Image
+        className=""
+      src="/assets/images/testo.png"
+      width={40}
+      height={40}
+      alt=""
+    />
+    <div className="">
+      <h5 className="text-[16px] text-[#000] font-[500]">Clara Bertoletti</h5>
+      <h6 className="text-[14px] text-[#000] font-[400]">MUI lover</h6>
+    </div>
+      </div>
+      </article>
+      <article className="mb-[18px] bg-[#fff] border-[#00379E] border-[2px] p-[25px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
+      <Image
+        className="mb-[13px]"
+      src="/assets/images/star.png"
+      width={136}
+      height={24}
+      alt=""
+    />
+    <p className="text-[#000000] text-[16px] leading-[28px] font-[400]">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+    <div className="flex items-center mt-[16px] gap-x-3">
+    <Image
+        className=""
+      src="/assets/images/testo.png"
+      width={40}
+      height={40}
+      alt=""
+    />
+    <div className="">
+      <h5 className="text-[16px] text-[#000] font-[500]">Clara Bertoletti</h5>
+      <h6 className="text-[14px] text-[#000] font-[400]">MUI lover</h6>
+    </div>
+      </div>
+      </article>
+      <article className="mb-[18px] bg-[#fff] border-[#00379E] border-[2px] p-[25px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
+      <Image
+        className="mb-[13px]"
+      src="/assets/images/star.png"
+      width={136}
+      height={24}
+      alt=""
+    />
+    <p className="text-[#000000] text-[16px] leading-[28px] font-[400]">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+    <div className="flex items-center mt-[16px] gap-x-3">
+    <Image
+        className=""
+      src="/assets/images/testo.png"
+      width={40}
+      height={40}
+      alt=""
+    />
+    <div className="">
+      <h5 className="text-[16px] text-[#000] font-[500]">Clara Bertoletti</h5>
+      <h6 className="text-[14px] text-[#000] font-[400]">MUI lover</h6>
+    </div>
+      </div>
+      </article>
+      <article className="mb-[18px] bg-[#fff] border-[#00379E] border-[2px] p-[25px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
+      <Image
+        className="mb-[13px]"
+      src="/assets/images/star.png"
+      width={136}
+      height={24}
+      alt=""
+    />
+    <p className="text-[#000000] text-[16px] leading-[28px] font-[400]">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+    <div className="flex items-center mt-[16px] gap-x-3">
+    <Image
+        className=""
+      src="/assets/images/testo.png"
+      width={40}
+      height={40}
+      alt=""
+    />
+    <div className="">
+      <h5 className="text-[16px] text-[#000] font-[500]">Clara Bertoletti</h5>
+      <h6 className="text-[14px] text-[#000] font-[400]">MUI lover</h6>
+    </div>
+      </div>
+      </article>
+      </div>
+      </div>
+      </section>
+
+{/* new section */}
+      <section className="pt-[80px] pb-[80px]">
+          <div className="container m-auto">
+          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center mb-[45px]">Book Your First Consultant Now!</h3>
+          <div className="relative">
+                    <Image
+        className="m-auto absolute left-0 top-[150px] right-0 z-[-1]"
+      src="/assets/images/lined.png"
+      width={786}
+      height={1}
+      alt=""
+    />
+          <div className="mx-auto flex gap-x-4  lg: lg:grid-cols-3">
+      <article className="mb-[18px] w-[33.3%] text-center ">
+      <Image
+        className="m-auto"
+      src="/assets/images/stone.png"
+      width={300}
+      height={300}
+      alt=""
+    />
+     <Image
+         className="absolute top-[132px] right-[-28px]"
+      src="/assets/images/ar.png"
+      width={40}
+      height={40}
+      alt=""
+    />
+    <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
+      <h5 className="text-[24px] text-[#1B1B1B] font-[600] mb-[10px]">Step 1</h5>
+      <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Signup to our platform and create your profile</p>
+    </div>
+        </article>
+        <article className="mb-[18px]  w-[33.3%] text-center relative">
+      <Image
+         className="m-auto"
+      src="/assets/images/sttwo.png"
+      width={300}
+      height={300}
+      alt=""
+    />
+    <Image
+         className="absolute top-[132px] right-[-28px]"
+      src="/assets/images/ar.png"
+      width={40}
+      height={40}
+      alt=""
+    />
+   <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
+      <h5 className="text-[24px] text-[#1B1B1B] font-[600] mb-[10px]">Step 2</h5>
+      <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Book your first consultation with one of our experts</p>
+    </div>
+        </article>
+        <article className="mb-[18px] w-[33.3%] text-center relative">
+      
+      <Image
+        className="m-auto"
+      src="/assets/images/stthree.png"
+      width={300}
+      height={300}
+      alt=""
+    />
+  <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
+      <h5 className="text-[24px] text-[#1B1B1B] font-[600] mb-[10px]">Step 3</h5>
+      <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Get Expert advice and unlock your potential</p>
+    </div>
+        </article>
+        </div>
+            
+        </div>
+      </div>
+      </section>
+{/* new section */}
+      <section className="pt-[80px] pb-[80px] bg-[#00379e12]">
+          <div className="container m-auto">
+          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center mb-[45px]">FAQs</h3>
+
+          <div className="flex items-center w-[100%]">
+
+<div className="w-[100%] ">
+<button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-6 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+    <div className="text-lg font-semibold">What is iKnowly platforms?</div>
+    <div className="mt-3 hidden text-gray-700 group-focus:flex">
+      <p>iKnowly is a revolutionary platform designed to empower jobseekers, students, and professionals with expert guidance and knowledge. Our mission is to provide personalized, one-on-one consultations with industry experts and experienced consultants, ensuring you have the insights and mentorship you need to excel in your job search and educational pursuits.</p>
+    </div>
+  </button>
+  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-6 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+    <div className="text-lg font-semibold">How do I signup for iKnowly?</div>
+    <div className="mt-3 hidden text-gray-700 group-focus:flex">
+      <p>Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side, he could even keep the ones he cared about from dying. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did.</p>
+    </div>
+  </button>
+  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-6 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+    <div className="text-lg font-semibold">What services does iKnowly offer?</div>
+    <div className="mt-3 hidden text-gray-700 group-focus:flex">
+      <p>Basically if they had attempted to fly in earlier, they would've been seen by the eye and then utterly demolished by the still strong forces within Mordor as Sauron was still very powerful and his armies were definitely a force to be reckoned with. That being said it is conceivable that a mission that bold could've been completed if the elves had also gotten involved, but they didn't care too much for the whole ordeal.</p>
+    </div>
+  </button>
+  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-6 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+    <div className="text-lg font-semibold">How do I book a consultation with a consultant?</div>
+    <div className="mt-3 hidden text-gray-700 group-focus:flex">
+      <p>Basically if they had attempted to fly in earlier, they would've been seen by the eye and then utterly demolished by the still strong forces within Mordor as Sauron was still very powerful and his armies were definitely a force to be reckoned with. That being said it is conceivable that a mission that bold could've been completed if the elves had also gotten involved, but they didn't care too much for the whole ordeal.</p>
+    </div>
+  </button>
+</div>
+
+
+</div>
+
+          </div>
+          </section>
 </>
 
   )
