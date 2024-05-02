@@ -64,15 +64,15 @@ import Link from "next/link";
     />
   <div className="mx-auto items-center justify-between flex   lg:mx-0 lg: lg:grid-cols-3">
       <article>
-        <h5 className="text-[#fff] text-[56px] font-[600]">120+</h5>
+        <h5 className="text-[#fff] text-[56px] font-[700]">120+</h5>
         <span className="text-[#fff] text-[24px] font-[400] mt-[0px]">Consultants</span>
       </article>
       <article>
-        <h5 className="text-[#fff] text-[56px] font-[600]">10k+</h5>
+        <h5 className="text-[#fff] text-[56px] font-[700]">10k+</h5>
         <span className="text-[#fff] text-[24px] font-[400] mt-[0px]">Job Seekers</span>
       </article>
       <article>
-        <h5 className="text-[#fff] text-[56px] font-[600]">20k+</h5>
+        <h5 className="text-[#fff] text-[56px] font-[700]">20k+</h5>
         <span className="text-[#fff] text-[24px] font-[400] mt-[0px]">Consultations</span>
       </article>
   </div>
@@ -83,7 +83,7 @@ import Link from "next/link";
 {/* new section */}
 <section className="mt-[140px] pb-[120px]">
 <div className="container m-auto">
-      <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center">We're revolutionizing <span className="text-[#00379E]">educational & career <br/>consulting </span>to empower your journey.</h3>
+      <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[700] text-center">We're revolutionizing <span className="text-[#00379E]">educational & career <br/>consulting </span>to empower your journey.</h3>
       <p className="text-[#1B1B1B] text-[18px] leading-30px] font-[400] text-center mt-[10px]">Our goal is to assist you in building your career, connect you with experts who share your aspirations.<br/> We help you reach your full potential through a transformative learning experience.</p>
       <div className="flex items-center justify-center mt-[30px] mb-[50px]">
               <a href="#" className="bg-[#00379E] text-[#fff] px-[43px] py-[19px] w-auto mr-[10px] rounded-[100px] text-[16px] font-[400]">Book a consultation</a>
@@ -98,7 +98,7 @@ import Link from "next/link";
       height={48}
       alt=""
     />
-    <h5 className="text-[#000] text-[20px] leading-[28px] font-[500] my-[10px]">Tailored Guidance</h5>
+    <h5 className="text-[#000] text-[20px] leading-[28px] font-[600] my-[10px]">Tailored Guidance</h5>
     <span className="text-[#1B1B1B] text-[15px] leading-[23px] font-[400]">Receive personalized advice from experienced consultants to navigate your educational and professional journey in Germany.</span>
       </article>
       <article className="border-[#FF7A00] border-[2px] p-[20px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%]">
@@ -109,7 +109,7 @@ import Link from "next/link";
       height={48}
       alt=""
     />
-    <h5 className="text-[#000] text-[20px] leading-[28px] font-[500] my-[10px]">Industry Insights</h5>
+    <h5 className="text-[#000] text-[20px] leading-[28px] font-[600] my-[10px]">Industry Insights</h5>
     <span className="text-[#1B1B1B] text-[15px] leading-[23px] font-[400]">Connect with professionals from high-caliber companies who can provide valuable insights and mentorship.</span>
       </article>
       <article className="border-[#00379E] border-[2px] p-[20px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%]">
@@ -120,7 +120,7 @@ import Link from "next/link";
       height={48}
       alt=""
     />
-    <h5 className="text-[#000] text-[20px] leading-[28px] font-[500] my-[10px]">Flexible Options</h5>
+    <h5 className="text-[#000] text-[20px] leading-[28px] font-[600] my-[10px]">Flexible Options</h5>
     <span className="text-[#1B1B1B] text-[15px] leading-[23px] font-[400]">Choose from a range of consultants and book sessions with experts at your own convenience.</span>
       </article>
       <article className="border-[#FF7A00] border-[2px] p-[20px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%]">
@@ -131,7 +131,7 @@ import Link from "next/link";
       height={48}
       alt=""
     />
-    <h5 className="text-[#000] text-[20px] leading-[28px] font-[500] my-[10px]">Cost-Efficient</h5>
+    <h5 className="text-[#000] text-[20px] leading-[28px] font-[600] my-[10px]">Cost-Efficient</h5>
     <span className="text-[#1B1B1B] text-[15px] leading-[23px] font-[400]">Access expert advice without the high costs associated with traditional consulting services.</span>
       </article>
       </div>
@@ -144,7 +144,7 @@ import Link from "next/link";
 {/* new section */}
 <section className="bg-[#00379e12] pt-[90px] pb-[90px]">
 <div className="container m-auto">
-<h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center">Meet Our  <span className="text-[#00379E]">Licensed Experts </span></h3>
+<h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[700] text-center">Meet Our  <span className="text-[#00379E]">Licensed Experts </span></h3>
       <p className="text-[#1B1B1B] text-[18px] leading-30px] font-[400] text-center mt-[15px]">Connect with a community of dedicated professionals. Tailored for consultants, our <br/>platform fosters collaboration and inspiration for meaningful interactions.</p>
      
       <div className="mx-auto flex justify-center gap-x-2 mt-[30px] mb-[30px]">
@@ -172,7 +172,7 @@ import Link from "next/link";
     <span className="bg-[#ff7b00c4] rounded-[100px] py-[8px] px-[18px] text-[#fff] text-[15px] absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
         </div>
      <div className="px-[25px] py-[25px]">
-    <h5 className="text-[20px] text-[#1B1B1B] font-[600]">Christoph Schneider</h5>
+    <h5 className="text-[20px] text-[#1B1B1B] font-[700]">Christoph Schneider</h5>
     <h6 className="text-[15px] text-[#1B1B1B] font-[400] my-[3px]">Fagikasade krovung monoligt</h6>
     <label className="text-[15px] text-[#00379E] font-[400] ">Product & Tech</label>
     <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
@@ -195,7 +195,7 @@ import Link from "next/link";
     <span className="bg-[#ff7b00c4] rounded-[100px] py-[8px] px-[18px] text-[#fff] text-[15px] absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
         </div>
      <div className="px-[25px] py-[25px]">
-    <h5 className="text-[20px] text-[#1B1B1B] font-[600]">Christoph Schneider</h5>
+    <h5 className="text-[20px] text-[#1B1B1B] font-[700]">Christoph Schneider</h5>
     <h6 className="text-[15px] text-[#1B1B1B] font-[400] my-[3px]">Fagikasade krovung monoligt</h6>
     <label className="text-[15px] text-[#00379E] font-[400] ">Product & Tech</label>
     <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
@@ -218,7 +218,7 @@ import Link from "next/link";
     <span className="bg-[#ff7b00c4] rounded-[100px] py-[8px] px-[18px] text-[#fff] text-[15px] absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
         </div>
      <div className="px-[25px] py-[25px]">
-    <h5 className="text-[20px] text-[#1B1B1B] font-[600]">Christoph Schneider</h5>
+    <h5 className="text-[20px] text-[#1B1B1B] font-[700]">Christoph Schneider</h5>
     <h6 className="text-[15px] text-[#1B1B1B] font-[400] my-[3px]">Fagikasade krovung monoligt</h6>
     <label className="text-[15px] text-[#00379E] font-[400] ">Product & Tech</label>
     <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
@@ -239,7 +239,7 @@ import Link from "next/link";
 {/* new section */}
 <section className="bg-[#00379E] pt-[90px] pb-[80px]">
 <div className="container m-auto">
-<h3 className="text-[#fff] text-[48px] leading-[56px] font-[600] text-center">What our clients say!</h3>
+<h3 className="text-[#fff] text-[48px] leading-[56px] font-[700] text-center">What our clients say!</h3>
       <p className="text-[#fff] text-[18px] leading-30px] font-[400] text-center mt-[15px] mb-[40px]">Companies from across the globe have had fantastic experiences using theFront. <br/>Here’s what they have to say.</p>
       <div className="mx-auto flex-wrap flex gap-x-4  lg: lg:grid-cols-3">
       <article className="mb-[18px] bg-[#fff] border-[#00379E] border-[2px] p-[25px] rounded-[10px] shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
@@ -387,7 +387,7 @@ import Link from "next/link";
 {/* new section */}
       <section className="pt-[80px] pb-[80px]">
           <div className="container m-auto">
-          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center mb-[45px]">Book Your First Consultant Now!</h3>
+          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[700] text-center mb-[45px]">Book Your First Consultant Now!</h3>
           <div className="relative">
                     <Image
         className="m-auto absolute left-0 top-[150px] right-0 z-[-1]"
@@ -397,7 +397,7 @@ import Link from "next/link";
       alt=""
     />
           <div className="mx-auto flex gap-x-4  lg: lg:grid-cols-3">
-      <article className="mb-[18px] w-[33.3%] text-center ">
+      <article className="mb-[18px] w-[33.3%] text-center relative">
       <Image
         className="m-auto"
       src="/assets/images/stone.png"
@@ -413,7 +413,7 @@ import Link from "next/link";
       alt=""
     />
     <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
-      <h5 className="text-[24px] text-[#1B1B1B] font-[600] mb-[10px]">Step 1</h5>
+      <h5 className="text-[24px] text-[#1B1B1B] font-[700] mb-[10px]">Step 1</h5>
       <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Signup to our platform and create your profile</p>
     </div>
         </article>
@@ -433,7 +433,7 @@ import Link from "next/link";
       alt=""
     />
    <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
-      <h5 className="text-[24px] text-[#1B1B1B] font-[600] mb-[10px]">Step 2</h5>
+      <h5 className="text-[24px] text-[#1B1B1B] font-[700] mb-[10px]">Step 2</h5>
       <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Book your first consultation with one of our experts</p>
     </div>
         </article>
@@ -447,7 +447,7 @@ import Link from "next/link";
       alt=""
     />
   <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
-      <h5 className="text-[24px] text-[#1B1B1B] font-[600] mb-[10px]">Step 3</h5>
+      <h5 className="text-[24px] text-[#1B1B1B] font-[700] mb-[10px]">Step 3</h5>
       <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Get Expert advice and unlock your potential</p>
     </div>
         </article>
@@ -459,30 +459,30 @@ import Link from "next/link";
 {/* new section */}
       <section className="pt-[80px] pb-[80px] bg-[#00379e12]">
           <div className="container m-auto">
-          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[600] text-center mb-[45px]">FAQs</h3>
+          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[700] text-center mb-[35px]">FAQs</h3>
 
           <div className="flex items-center w-[100%]">
 
-<div className="w-[100%] ">
-<button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-6 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+<div className="w-[100%] max-w-[764px] m-auto">
+<button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
     <div className="text-lg font-semibold">What is iKnowly platforms?</div>
     <div className="mt-3 hidden text-gray-700 group-focus:flex">
       <p>iKnowly is a revolutionary platform designed to empower jobseekers, students, and professionals with expert guidance and knowledge. Our mission is to provide personalized, one-on-one consultations with industry experts and experienced consultants, ensuring you have the insights and mentorship you need to excel in your job search and educational pursuits.</p>
     </div>
   </button>
-  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-6 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
     <div className="text-lg font-semibold">How do I signup for iKnowly?</div>
     <div className="mt-3 hidden text-gray-700 group-focus:flex">
       <p>Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side, he could even keep the ones he cared about from dying. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did.</p>
     </div>
   </button>
-  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-6 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
     <div className="text-lg font-semibold">What services does iKnowly offer?</div>
     <div className="mt-3 hidden text-gray-700 group-focus:flex">
       <p>Basically if they had attempted to fly in earlier, they would've been seen by the eye and then utterly demolished by the still strong forces within Mordor as Sauron was still very powerful and his armies were definitely a force to be reckoned with. That being said it is conceivable that a mission that bold could've been completed if the elves had also gotten involved, but they didn't care too much for the whole ordeal.</p>
     </div>
   </button>
-  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-6 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+  <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
     <div className="text-lg font-semibold">How do I book a consultation with a consultant?</div>
     <div className="mt-3 hidden text-gray-700 group-focus:flex">
       <p>Basically if they had attempted to fly in earlier, they would've been seen by the eye and then utterly demolished by the still strong forces within Mordor as Sauron was still very powerful and his armies were definitely a force to be reckoned with. That being said it is conceivable that a mission that bold could've been completed if the elves had also gotten involved, but they didn't care too much for the whole ordeal.</p>
@@ -491,8 +491,11 @@ import Link from "next/link";
 </div>
 
 
-</div>
 
+</div>
+<div className="text-center mt-[40px]">
+        <a href="#" className="m-auto table items-center justify-center bg-[#00379E] rounded-[100px] px-[39px] py-[14px] text-[16px] text-[#fff] text-center font-[500]  h-[52px]">View More FAQs</a>
+        </div>
           </div>
           </section>
 </>
