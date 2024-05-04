@@ -1,10 +1,25 @@
-import React from 'react'
+'use client'
+ 
+import { useState } from 'react'
 import Image from "next/image";
 function Consultants() {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleAccordion = () => {
+      setIsOpen(!isOpen);
+    };
+
     return (
         <section className='py-[70px]'>
             <div className="container m-auto">
-
+            <div className="border border-gray-300 rounded-md mb-4">
+      <div className="flex items-center justify-between p-4 cursor-pointer" onClick={toggleAccordion}>
+        <div>Test</div>
+        <div>{isOpen ? '-' : '+'}</div>
+      </div>
+      {isOpen && <div className="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum totam saepe tempora molestiae dolorum. Suscipit, odio consectetur non illum distinctio, numquam quo repellendus consequatur, deleniti quidem enim. Inventore, iure?</div>}
+    </div>
                 <div className='flex pt-[40px]'>
                     <div className='relative w-[67%]'>
                         <ul className='flex gap-2 mb-[35px]'>
