@@ -1,10 +1,28 @@
+'use client';
+
+import { useState } from 'react';
 import Image from "next/image";
-
-import Link from "next/link";
-
+import Oursteps from '../common/oursteps/page';
 export default function Home() {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+
+  const [isOne, setIsOne] = useState(false);
+  const [isTow, setIsTow] = useState(false);
+  const [isThree, setIsThree] = useState(false);
+  const [isFour, setIsFour] = useState(false);
+
+  const toggleAccordion = () => {
+    setIsOne(!isOne);
+ 
+  };
+  const toggleAccordionOne = () => {
+    setIsTow(!isTow);
+  };
+  const toggleAccordionTwo = () => {
+    setIsThree(!isThree);
+  };
+  const toggleAccordionThree = () => {
+    setIsFour(!isFour);
+  };
   return (
     <>
       <section className="">
@@ -83,7 +101,7 @@ export default function Home() {
       {/* new section */}
       <section className="mt-[140px] pb-[120px]">
         <div className="container m-auto">
-          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[700] text-center">We're revolutionizing <span className="text-[#00379E]">educational & career <br />consulting </span>to empower your journey.</h3>
+          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[700] text-center">We&aposre revolutionizing <span className="text-[#00379E]">educational & career <br />consulting </span>to empower your journey.</h3>
           <p className="text-[#1B1B1B] text-[18px] leading-30px] font-[400] text-center mt-[10px]">Our goal is to assist you in building your career, connect you with experts who share your aspirations.<br /> We help you reach your full potential through a transformative learning experience.</p>
           <div className="flex items-center justify-center mt-[30px] mb-[50px]">
             <a href="#" className="bg-[#00379E] text-[#fff] px-[43px] py-[19px] w-auto mr-[10px] rounded-[100px] text-[16px] font-[400]">Book a consultation</a>
@@ -385,111 +403,49 @@ export default function Home() {
       </section>
 
       {/* new section */}
-      <section className="pt-[80px] pb-[80px]">
-        <div className="container m-auto">
-          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[700] text-center mb-[45px]">Book Your First Consultant Now!</h3>
-          <div className="relative">
-            <Image
-              className="m-auto absolute left-0 top-[150px] right-0 z-[-1]"
-              src="/assets/images/lined.png"
-              width={786}
-              height={1}
-              alt=""
-            />
-            <div className="mx-auto flex gap-x-4  lg: lg:grid-cols-3">
-              <article className="mb-[18px] w-[33.3%] text-center relative">
-                <Image
-                  className="m-auto"
-                  src="/assets/images/stone.png"
-                  width={300}
-                  height={300}
-                  alt=""
-                />
-                <Image
-                  className="absolute top-[132px] right-[-28px]"
-                  src="/assets/images/ar.png"
-                  width={40}
-                  height={40}
-                  alt=""
-                />
-                <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
-                  <h5 className="text-[24px] text-[#1B1B1B] font-[700] mb-[10px]">Step 1</h5>
-                  <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Signup to our platform and create your profile</p>
-                </div>
-              </article>
-              <article className="mb-[18px]  w-[33.3%] text-center relative">
-                <Image
-                  className="m-auto"
-                  src="/assets/images/sttwo.png"
-                  width={300}
-                  height={300}
-                  alt=""
-                />
-                <Image
-                  className="absolute top-[132px] right-[-28px]"
-                  src="/assets/images/ar.png"
-                  width={40}
-                  height={40}
-                  alt=""
-                />
-                <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
-                  <h5 className="text-[24px] text-[#1B1B1B] font-[700] mb-[10px]">Step 2</h5>
-                  <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Book your first consultation with one of our experts</p>
-                </div>
-              </article>
-              <article className="mb-[18px] w-[33.3%] text-center relative">
-
-                <Image
-                  className="m-auto"
-                  src="/assets/images/stthree.png"
-                  width={300}
-                  height={300}
-                  alt=""
-                />
-                <div className="relative mt-[-45px] bg-[#fff] py-[25px] px-[30px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] rounded-[15px] max-w-[300px] m-auto">
-                  <h5 className="text-[24px] text-[#1B1B1B] font-[700] mb-[10px]">Step 3</h5>
-                  <p className="text-[16px] text-[#000] leading-[28px] font-[400] px-[10px]"> Get Expert advice and unlock your potential</p>
-                </div>
-              </article>
-            </div>
-
-          </div>
-        </div>
-      </section>
+     <Oursteps/>
       {/* new section */}
       <section className="pt-[80px] pb-[80px] bg-[#00379e12]">
         <div className="container m-auto">
           <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-[700] text-center mb-[35px]">FAQs</h3>
 
-          <div className="flex items-center w-[100%]">
-
-            <div className="w-[100%] max-w-[764px] m-auto">
-              <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
-                <div className="text-lg font-semibold">What is iKnowly platforms?</div>
-                <div className="mt-3 hidden text-gray-700 group-focus:flex">
-                  <p>iKnowly is a revolutionary platform designed to empower jobseekers, students, and professionals with expert guidance and knowledge. Our mission is to provide personalized, one-on-one consultations with industry experts and experienced consultants, ensuring you have the insights and mentorship you need to excel in your job search and educational pursuits.</p>
-                </div>
-              </button>
-              <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
-                <div className="text-lg font-semibold">How do I signup for iKnowly?</div>
-                <div className="mt-3 hidden text-gray-700 group-focus:flex">
-                  <p>Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side, he could even keep the ones he cared about from dying. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did.</p>
-                </div>
-              </button>
-              <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
-                <div className="text-lg font-semibold">What services does iKnowly offer?</div>
-                <div className="mt-3 hidden text-gray-700 group-focus:flex">
-                  <p>Basically if they had attempted to fly in earlier, they would've been seen by the eye and then utterly demolished by the still strong forces within Mordor as Sauron was still very powerful and his armies were definitely a force to be reckoned with. That being said it is conceivable that a mission that bold could've been completed if the elves had also gotten involved, but they didn't care too much for the whole ordeal.</p>
-                </div>
-              </button>
-              <button className="bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[23px] px-[25px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
-                <div className="text-lg font-semibold">How do I book a consultation with a consultant?</div>
-                <div className="mt-3 hidden text-gray-700 group-focus:flex">
-                  <p>Basically if they had attempted to fly in earlier, they would've been seen by the eye and then utterly demolished by the still strong forces within Mordor as Sauron was still very powerful and his armies were definitely a force to be reckoned with. That being said it is conceivable that a mission that bold could've been completed if the elves had also gotten involved, but they didn't care too much for the whole ordeal.</p>
-                </div>
-              </button>
+          <div className="flex justify-center	 flex-wrap flex-col text-center w-[100%]">
+            <div className="max-w-[670px] m-auto bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[8px] px-[8px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+              <div className="flex items-center justify-between p-4 cursor-pointer" onClick={toggleAccordion}>
+                <div className='text-[20px] font-[500]'>What is iKnowly platforms?</div>
+                <div>{isOne ? <Image className="" src="/assets/images/ard.png" width={24} height={24} alt="" /> : <Image className="" src="/assets/images/aru.png" width={24} height={24} alt="" />}</div>
+              </div>
+              {isOne && <div className="p-4 pt-[0]">
+                <p className='text-[16px] text-[#22272E] leading-[26px]'>iKnowly is a revolutionary platform designed to empower jobseekers, students, and professionals with expert guidance and knowledge. Our mission is to provide personalized, one-on-one consultations with industry experts and experienced consultants, ensuring you have the insights and mentorship you need to excel in your job search and educational pursuits.</p>
+              </div>}
             </div>
-
+            <div className="max-w-[670px] m-auto bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[8px] px-[8px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+              <div className="flex items-center justify-between p-4 cursor-pointer" onClick={toggleAccordionOne}>
+                <div className='text-[20px] font-[500]'>How do I signup for iKnowly?</div>
+                <div>{isTow ? <Image className="" src="/assets/images/ard.png" width={24} height={24} alt="" /> : <Image className="" src="/assets/images/aru.png" width={24} height={24} alt="" />}</div>
+              </div>
+              {isTow && <div className="p-4 pt-[0]">
+                <p className='text-[16px] text-[#22272E] leading-[26px]'>iKnowly is a revolutionary platform designed to empower jobseekers, students, and professionals with expert guidance and knowledge. Our mission is to provide personalized, one-on-one consultations with industry experts and experienced consultants, ensuring you have the insights and mentorship you need to excel in your job search and educational pursuits.</p>
+              </div>}
+            </div>
+            <div className="max-w-[670px] m-auto bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[8px] px-[8px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+              <div className="flex items-center justify-between p-4 cursor-pointer" onClick={toggleAccordionTwo}>
+                <div className='text-[20px] font-[500]'>What services does iKnowly offer?</div>
+                <div>{isThree ? <Image className="" src="/assets/images/ard.png" width={24} height={24} alt="" /> : <Image className="" src="/assets/images/aru.png" width={24} height={24} alt="" />}</div>
+              </div>
+              {isThree && <div className="p-4 pt-[0]">
+                <p className='text-[16px] text-[#22272E] leading-[26px]'>iKnowly is a revolutionary platform designed to empower jobseekers, students, and professionals with expert guidance and knowledge. Our mission is to provide personalized, one-on-one consultations with industry experts and experienced consultants, ensuring you have the insights and mentorship you need to excel in your job search and educational pursuits.</p>
+              </div>}
+            </div>
+            <div className="max-w-[670px] m-auto bg-[#FFFFFF] text-[18px] text-[#000000] text-left mt-5 py-[8px] px-[8px] rounded-[10px] shadow-[0_16px_50px_-6px_rgba(0,0,0,0.1)] w-[100%] group focus:outline-none">
+              <div className="flex items-center justify-between p-4 cursor-pointer" onClick={toggleAccordionThree}>
+                <div className='text-[20px] font-[500]'>How do I book a consultation with a consultant?</div>
+                <div>{isFour ? <Image className="" src="/assets/images/ard.png" width={24} height={24} alt="" /> : <Image className="" src="/assets/images/aru.png" width={24} height={24} alt="" />}</div>
+              </div>
+              {isFour && <div className="p-4 pt-[0]">
+                <p className='text-[16px] text-[#22272E] leading-[26px]'>iKnowly is a revolutionary platform designed to empower jobseekers, students, and professionals with expert guidance and knowledge. Our mission is to provide personalized, one-on-one consultations with industry experts and experienced consultants, ensuring you have the insights and mentorship you need to excel in your job search and educational pursuits.</p>
+              </div>}
+            </div>
 
 
           </div>
@@ -500,5 +456,5 @@ export default function Home() {
       </section>
     </>
 
-  )
+  );
 }

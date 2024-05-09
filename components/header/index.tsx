@@ -1,7 +1,7 @@
 import Image from "next/image";
-
-
+import Link from "next/link";
 export default function Home() {
+
   return (
     <>
       <header className="bg-[transparent] w-full absolute top-0 left-0 right-0 ">
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="hidden items-center lg:flex lg:gap-x-5">
               <button type="button" className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false">
-                <span className="text-[16px] leading-6 text-[#fff] font-[400]">Solutions</span>
+                <span className="font-normal text-base leading-6 text-white">Categories</span>
                 <svg className="h-5 w-5" viewBox="0 0 20 20" fill="#fff" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                 </svg>
@@ -40,18 +40,18 @@ export default function Home() {
                   height={20}
                   alt="Picture of the author"
                 /></span>
-                <input className="font-[400] h-[40px] w-[205px] rounded-[100px] bg-[#ffffff12] px-[15px]  pl-[38px] border-[1px] border-[#fff] size-[16px] text-[#fff] outline-[0]" type="text" placeholder="Search" />
+                <input className="font-normal h-10 w-50 rounded-full bg-[#ffffff12] px-5  pl-10 border border-white text-base text-white outline-[0]" type="text" placeholder="Search" />
               </div>
-              <a href="#" className="font-[400] text-[16px] leading-6 text-[#fff] ml-[13px]">Home</a>
-              <a href="#" className="font-[400] text-[16px] leading-6 text-[#fff] ml-[13px]">Consultants</a>
-              <a href="#" className="font-[400] text-[16px] leading-6 text-[#fff] ml-[13px]">Become a consultant</a>
-              <a href="#" className="font-[400] text-[16px] leading-6 text-[#fff] ml-[13px]">Sign in</a>
+              <Link href="/" className="font-normal text-base leading-6 text-white ml-4">Home</Link>
+              <Link href="/consultants" className="font-normal text-base leading-6 text-white ml-4">Consultants</Link>
+              <a href="#" className="font-normal text-base leading-6 text-white ml-4">Become a consultant</a>
+              <a href="#" className="font-normal text-base leading-6 text-white ml-4">Sign in</a>
 
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center">
-              <button className="text-[16px] bg-[#00379E] text-[#fff] py-4 px-9 rounded-[100px]	font-[600]">Register</button>
+              <button className="text-base bg-bluecolor text-white py-4 px-9 rounded-full font-normal">Register</button>
             </div>
-          </nav>
+          </nav> 
         </div>
 
       </header>

@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
-
 export default function Footer() {
   return (
     <>
@@ -52,34 +50,34 @@ export default function Footer() {
             <div className="">
               <h5 className="text-[28px] text-[#fff] font-[600] mb-[12px] mt-[55px]">Links</h5>
               <ul>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">Home</a></li>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">About Us</a></li>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">FAQs</a></li>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">Careers</a></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/">Home</Link></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/about">About Us</Link></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/faq">FAQs</Link></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/career-listing-minimal">Careers</Link></li>
               </ul>
             </div>
 
             <div className="">
               <h5 className="text-[28px] text-[#fff] font-[600] mb-[12px] mt-[55px]">Consultants</h5>
               <ul>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">Become a consultant</a></li>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">Find a consultant</a></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/become-consultant">Become a consultant</Link></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/consultants">Find a consultant</Link></li>
               </ul>
             </div>
 
             <div className="">
               <h5 className="text-[28px] text-[#fff] font-[600] mb-[12px] mt-[55px]">Answers</h5>
               <ul>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">Help Center</a></li>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">Find your answers</a></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/help-center">Help Center</Link></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/faq">Find your answers</Link></li>
               </ul>
             </div>
 
             <div className="">
               <h5 className="text-[28px] text-[#fff] font-[600] mb-[12px] mt-[55px]">Support</h5>
               <ul>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">Contact us</a></li>
-                <li><a className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="#">Terms of services</a></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/contact-page">Contact us</Link></li>
+                <li><Link className="flex text-[16px] text-[#fff] font-[400] mb-[13px]" href="/company-terms">Terms of services</Link></li>
               </ul>
             </div>
           </div>
