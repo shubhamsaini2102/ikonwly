@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontSize:{
         'headingFont':'48px',
+        'listfont':'28px',
         'consultfont':'88px',
         'subheading':'22px',
 
@@ -29,6 +30,8 @@ const config: Config = {
         'bodycolor':'#1B1B1B',
       },
       padding:{
+        'buttonXpadding':'40px',
+        'buttonYpadding':'17px',
         'padding100': '100px',
       },
 

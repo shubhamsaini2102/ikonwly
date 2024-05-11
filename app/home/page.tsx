@@ -403,7 +403,7 @@ export default function Home() {
       </section>
 
       {/* new section */}
-     <Oursteps/>
+     <Oursteps config={{home: false, becomeStep: true}}/>
       {/* new section */}
       <section className="pt-[80px] pb-[80px] bg-[#00379e12]">
         <div className="container m-auto">

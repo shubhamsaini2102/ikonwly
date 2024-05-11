@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import Consultantbanner from '../common/consultbanner/page';
 import Oursteps from '../common/oursteps/page';
+import Emailer from '../common/emailer/page';
 function Becomeconsultants() {
 
     console.log("P  A  G  E");
@@ -70,7 +71,8 @@ function Becomeconsultants() {
             </div>
         </div>
     </section>
-    <Oursteps/>
+    <Oursteps config={{home: false, becomeStep: true}}/>
+    <Emailer config={{emailer: false, becomeEmailerp: true}}/>
     </>
   )
 }
