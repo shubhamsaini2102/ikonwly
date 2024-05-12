@@ -28,6 +28,8 @@ const config: Config = {
         'bluecolor': '#00379E',
         'orange':'#FF7A00',
         'bodycolor':'#1B1B1B',
+        'bordercolor':"#ddd",
+        'placehlder':"#1B1B1B70"
       },
       padding:{
         'buttonXpadding':'40px',
