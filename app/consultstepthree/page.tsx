@@ -6,21 +6,7 @@ import Image from "next/image";
 import StepSidebar from '../common/stepsidebar/page';
 
 function Stepthree() {
-    const [isOne, setIsOne] = useState(true);
-    const [isTow, setIsTow] = useState(true);
-    const [isThree, setIsThree] = useState(false);
-
-
-    const toggleAccordion = () => {
-        setIsOne(!isOne);
-
-    };
-    const toggleAccordionOne = () => {
-        setIsTow(!isTow);
-    };
-    const toggleAccordionTwo = () => {
-        setIsThree(!isThree);
-    };
+ 
   return (
     <div className='flex'>
     <div className='bg-[#00379e14] w-[30%] py-10 px-11'>

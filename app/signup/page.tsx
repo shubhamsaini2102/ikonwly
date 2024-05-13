@@ -7,8 +7,8 @@ import Image from "next/image";
 function Signup() {
     return (
         <>
-            <div className='flex'>
-                <div className='w-6/12	h-screen flex justify-center flex-col'>
+            <div className='flex max-lg:flex-wrap'>
+                <div className='w-6/12	h-screen flex justify-center flex-col max-lg:w-full max-lg:order-2 max-lg:py-6 max-lg:h-auto max-md:px-4'>
                     <div className='max-w-lg w-full font-normal ml-auto mr-auto table'>
                         <Image
                             className=""
@@ -18,7 +18,7 @@ function Signup() {
                             alt=""
                         />
                     </div>
-                    <h3 className='max-w-lg w-full ml-auto mr-auto table text-5xl text-left mt-12 mb-7 font-bold	'>Sign in</h3>
+                    <h3 className='max-w-lg w-full ml-auto mr-auto table text-5xl text-left mt-12 mb-7 font-bold max-lg:text-4xl max-md:text-2xl max-md:mt-6	'>Sign in</h3>
                     <form>
                         <div className=''>
                             <input className="outline-0 border placeholder:text-slate-400 rounded-md	border-slate-400 h-14 px-4 max-w-lg	w-full font-normal m-auto table text-base text-slate-400" type='text' placeholder='Email Address' />
@@ -48,9 +48,9 @@ function Signup() {
                         </div>
                     </form>
                 </div>
-                <div className='w-6/12'>
+                <div className='w-6/12 max-lg:w-full max-lg:order-1'>
                     <Image
-                        className="h-screen"
+                        className="h-screen max-lg:h-[300px] max-lg:object-cover"
                         src="/assets/images/signin.png"
                         width={1000}
                         height={84}

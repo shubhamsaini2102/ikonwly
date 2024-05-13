@@ -22,7 +22,7 @@ export default function RootLayout({
 
   const pathname: any = usePathname()
 
-  const includeRoute = ["/login", "/signup", "/apply", "/consultstepone", "/consultsteptwo"].includes(pathname)
+  const includeRoute = ["/login", "/signup", "/apply", "/consultstepone", "/consultsteptwo", "/consultstepfour", "/consultstepfive", "/consultstepsix"].includes(pathname)
 
   return (
     <html lang="en">

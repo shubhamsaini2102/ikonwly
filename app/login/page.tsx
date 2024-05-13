@@ -7,7 +7,7 @@ import Image from "next/image";
 function Login() {
   return (
     <>
-      <div className='pt-padding100 pb-padding100'>
+      <div className='pt-padding100 pb-padding100 max-md:pt-10 max-md:pb-10'>
         <Image
           className="m-auto"
           src="/assets/images/logobk.png"
@@ -15,8 +15,8 @@ function Login() {
           height={84}
           alt=""
         />
-        <h3 className='text-5xl text-center mt-10 mb-5 font-bold	'>Sign up as a Consultant</h3>
-        <form>
+        <h3 className='text-5xl text-center mt-10 mb-5 font-bold max-lg:text-4xl max-md:text-2xl	'>Sign up as a Consultant</h3>
+        <form className='max-md:px-3'>
           <div className=''>
             <input className="outline-0 border placeholder:text-slate-400 rounded-md	border-slate-400 h-14 px-4 max-w-lg	w-full font-normal m-auto table text-base text-slate-400" type='text' placeholder='Full Name' />
           </div>
