@@ -18,6 +18,8 @@ const config: Config = {
         'listfont':'28px',
         'consultfont':'88px',
         'subheading':'22px',
+        'max-lg':'50px',
+        'ipad-body':'17px'
 
       },
       
@@ -29,7 +31,8 @@ const config: Config = {
         'orange':'#FF7A00',
         'bodycolor':'#1B1B1B',
         'bordercolor':"#ddd",
-        'placehlder':"#1B1B1B70"
+        'placehlder':"#1B1B1B70",
+        'max-lg':''
       },
       padding:{
         'buttonXpadding':'40px',
