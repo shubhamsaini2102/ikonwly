@@ -40,7 +40,7 @@ function Becomeconsultants() {
         </div>
     </section>
 
-    <section className='pt-28 pb-20 max-lg:pb-10'>
+    <section className='pt-28 pb-20 max-lg:pb-3'>
     <div className="container m-auto">
             <div className='flex  gap-6'>
            
@@ -72,7 +72,7 @@ function Becomeconsultants() {
         </div>
     </section>
     <Oursteps config={{home: false, becomeStep: true}}/>
-    <Emailer config={{emailer: false, becomeEmailerp: true}}/>
+    <Emailer config={{emailertext: false, becomeEmailerp: true}}/>
     </>
   )
 }

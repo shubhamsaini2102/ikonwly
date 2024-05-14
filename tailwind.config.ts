@@ -19,7 +19,8 @@ const config: Config = {
         'consultfont':'88px',
         'subheading':'22px',
         'max-lg':'50px',
-        'ipad-body':'17px'
+        'ipad-body':'17px',
+        'ipadheadingFont':'38px',
 
       },
       

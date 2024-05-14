@@ -185,7 +185,7 @@ function Consultants() {
           </div>
         </div>
       </section>
-     <Emailer config={{emailer: false, becomeEmailerp: true}}/>
+     <Emailer config={{emailertext: false, becomeEmailerp: true}}/>
     </>
   );
 }
