@@ -33,8 +33,12 @@ body
 @media (max-width:1199px)
 {
   .container {
-    padding: 0 30px;
+    padding: 0 25px;
   }
+}
+@media (max-width:991px)
+{
+
 }
 @media (max-width:767px)
 {
@@ -45,4 +49,7 @@ body
   {
     display: none;
   }
+  footer {
+    overflow: hidden;
+}
 }

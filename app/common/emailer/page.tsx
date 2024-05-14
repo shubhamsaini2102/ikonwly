@@ -1,14 +1,17 @@
+
 import React from 'react';
 import Image from "next/image";
 
 function Emailer({ config: { emailertext, becomeEmailerp } }: any) {
+
+  
   return (
-    <section className="bg-orange pt-20 pb-20">
+    <section className="bg-orange pt-20 pb-20 max-md:pt-10 max-md:pb-10">
     <div className="container m-auto">
-      {emailertext && <h3 className="text-white text-headingFont leading-1 font-bold text-center">Did not find what you&apos;re looking for?</h3>}
-      {becomeEmailerp && <h3 className="text-white text-headingFont leading-1 font-bold text-center max-lg:text-ipadheadingFont">Ready to Make a Difference?<br/> Join Our Community!</h3>}
-      {emailertext && <p className="text-white text-lg leading-1 font-regular text-center mt-2 mb-7">But worry not! Our dedicated team is here to help you connect you with the perfect<br /> consultant who will meet your unique requirements.<br /> Your search for the ideal consultant ends here!</p> }
-      {becomeEmailerp && <p className="text-white text-lg leading-1 font-regular text-center mt-2 mb-7">Take the first step in becoming a part of our community of consultants dedicated to <br/>empowering individuals in their career journeys.</p> }
+      {emailertext && <h3 className="text-white text-headingFont leading-1 font-bold text-center max-lg:text-ipadheadingFont max-md:text-listfont max-md:leading-8">Did not find what you&apos;re looking for?</h3>}
+      {becomeEmailerp && <h3 className="text-white text-headingFont leading-1 font-bold text-center max-lg:text-ipadheadingFont max-md:text-listfont max-md:leading-8">Ready to Make a Difference?<br/> Join Our Community!</h3>}
+      {emailertext && <p className="text-white text-lg leading-1 font-regular text-center mt-2 mb-7 max-md:text-sm	">But worry not! Our dedicated team is here to help you connect you with the perfect<br /> consultant who will meet your unique requirements.<br /> Your search for the ideal consultant ends here!</p> }
+      {becomeEmailerp && <p className="text-white text-lg leading-1 font-regular text-center mt-2 mb-7 max-md:text-sm">Take the first step in becoming a part of our community of consultants dedicated to <br/>empowering individuals in their career journeys.</p> }
       {emailertext && <div className=''>
         <div className='relative w-full text-center'>
           <input className="max-w-[470px] bg-white outline-none px-[20px] py-[14px] rounded-full border-[1px] border-[#1b1b1b36] text-base text-[#1b1b1bad] font-regular w-full" type='text' placeholder='Enter consultation field' />

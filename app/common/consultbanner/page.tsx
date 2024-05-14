@@ -10,29 +10,29 @@ function Consultantbanner({ config: { consultants, becomeConsultant } }: any) {
         <section className="">
 
             <div className="container m-auto">
-                <div className="flex gap-4 items-center pt-40 pb-40 max-lg:pt-20 max-lg:pb-20 max-md:flex-wrap">
-                    <div className="w-[70%] max-lg:w-[60%] max-md:w-[100%]">
-                        {becomeConsultant && <h2 className="text-consultfont text-slate-900 font-bold  leading-none mt-10 max-lg:text-max-lg max-md:text-3xl ">
+                <div className="flex gap-4 items-center pt-40 pb-40 max-lg:pt-20 max-lg:pb-10 max-lg:mt-5 max-md:flex-wrap max-ld:mt-0">
+                    <div className="w-[70%] max-lg:w-[100%] max-md:w-[100%]">
+                        {becomeConsultant && <h2 className="text-consultfont text-slate-900 font-bold  leading-none mt-10 max-lg:text-max-lg max-md:text-5xl ">
                             Join Our Team<br />  as a
 
-                            <span className="relative text-[#00379E]"> Consultant!</span> </h2>}
+                            <span className="relative text-bluecolor"> Consultant!</span> </h2>}
 
-                        {consultants && <h2 className="text-consultfont text-slate-900 font-bold  leading-none mt-10 max-lg:text-max-lg max-md:text-3xl">
+                        {consultants && <h2 className="text-consultfont text-slate-900 font-bold  leading-none mt-10 max-lg:text-max-lg max-md:text-5xl">
                             Meet Our  <br />
 
-                            <span className="relative text-[#00379E]"> Licensed Experts</span> </h2>}
+                            <span className="relative text-bluecolor"> Licensed Experts</span> </h2>}
 
                         {becomeConsultant && <p className="text-slate-900 text-xl leading-8 font-normal  mt-4 mb-5 max-lg:text-ipad-body max-lg:leading-7 max-md:text-base">Are you passionate about guiding individuals in their career paths? Do you have expertise in career education and counseling?
                             At iknowly, we're seeking dedicated professionals like you to join our team of consultants.</p>}
 
-                        {consultants && <p className="text-slate-900 text-xl leading-8 font-normal  mt-4 mb-5 max-lg:text-ipad-body max-lg:leading-7 max-md:text-base">Connect with a community of dedicated professionals. Tailored for<br /> consultants, our platform fosters collaboration and inspiration for<br /> meaningful interactions.</p>}
+                        {consultants && <p className="text-slate-900 text-xl leading-8 font-normal  mt-4 mb-5 max-lg:text-ipad-body max-lg:leading-7 max-md:text-base max-md:mb-0">Connect with a community of dedicated professionals. Tailored for<br /> consultants, our platform fosters collaboration and inspiration for<br /> meaningful interactions.</p>}
 
                         {becomeConsultant && <Link href="/" className="float-left flex items-center justify-center bg-bluecolor rounded-full px-12 py-4 text-base text-white text-center font-medium max-md:px-10 max-md:py-3 ">Become a consultant now</Link>
                         }
 
 
                     </div>
-                    <div className="w-[30%] max-lg:w-[40%] max-md:w-[100%] max-md:mt-3">
+                    <div className="w-[30%] max-lg:w-[40%] max-md:w-[100%] max-md:mt-3 max-lg:hidden">
                         <div className='relative'>
                             {consultants && <Image
                                 className=""

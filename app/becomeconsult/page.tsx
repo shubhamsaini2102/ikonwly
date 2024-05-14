@@ -11,8 +11,8 @@ function Becomeconsultants() {
     <Consultantbanner config={{consultants: false, becomeConsultant: true}}/>
     <section>
     <div className="container m-auto">
-            <div className='flex  gap-6'>
-            <div className='w-[50%]'>
+            <div className='flex  gap-6 max-md:flex-wrap'>
+            <div className='w-[50%] max-md:w-full max-md:order-2'>
                 <Image
                 className=""
                 src="/assets/images/constleft.png"
@@ -21,8 +21,8 @@ function Becomeconsultants() {
                 alt=""
               />
                 </div>
-                <div className='w-[50%]'>
-                    <h4 className='text-5xl text-slate-900 font-bold mb-7 max-lg:text-3xl'>Why Choose <span className='text-orange'>Iknowly?</span></h4>
+                <div className='w-[50%] max-md:w-full max-md:order-1'>
+                    <h4 className='text-5xl text-slate-900 font-bold mb-7 max-lg:text-3xl max-md:text-2xl'>Why Choose <span className='text-orange'>Iknowly?</span></h4>
                     <div className='shadow-[0_16px_50px_0px_rgba(0,0,0,0.1)] py-5 px-8 rounded-3xl max-lg:px-5'>
                         <h5 className='text-bodycolor font-semibold text-subheading flex items-center mb-2 max-lg:text-xl'><Image className="mr-2" src="/assets/images/verify.png" width={22} height={22} alt=""/>Global Reach</h5>
                         <p className='text-base text-bodycolor font-regular'>Access a vast pool of individuals seeking career guidance, not limited to geographical boundaries.</p>
@@ -40,12 +40,12 @@ function Becomeconsultants() {
         </div>
     </section>
 
-    <section className='pt-28 pb-20 max-lg:pb-3'>
-    <div className="container m-auto">
-            <div className='flex  gap-6'>
+    <section className='pt-28 pb-20 max-lg:pb-3 max-md:pt-14 max-md:pb-0'>
+    <div className="container m-auto ">
+            <div className='flex  gap-6 max-md:flex-wrap'>
            
-                <div className='w-[50%]'>
-                    <h4 className='text-5xl text-slate-900 font-bold mb-7 max-lg:text-3xl'>What We are Looking For? </h4>
+                <div className='w-[50%] max-md:w-full'>
+                    <h4 className='text-5xl text-slate-900 font-bold mb-7 max-lg:text-3xl max-md:text-2xl'>What We are Looking For? </h4>
                     <div className='shadow-[0_16px_50px_0px_rgba(0,0,0,0.1)] py-5 px-8 rounded-3xl max-lg:px-5'>
                         <h5 className='text-bodycolor font-semibold text-subheading flex items-center mb-2 max-lg:text-xl'><Image className="mr-2" src="/assets/images/orverify.png" width={22} height={22} alt=""/>Expertise</h5>
                         <p className='text-base text-bodycolor font-regular'>Professionals experienced in career education, counseling, HR, or related fields.</p>
@@ -59,7 +59,7 @@ function Becomeconsultants() {
                         <p className='text-base text-bodycolor font-regular'>Willingness to conduct a minimum number of sessions per month.</p>
                     </div>
                 </div>
-                <div className='w-[50%]'>
+                <div className='w-[50%] max-md:w-full'>
                 <Image
                 className=""
                 src="/assets/images/thumb.png"
