@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Image from "next/image";
 import Oursteps from '../common/oursteps/page';
+import Meetexpert from '../common/meet-our-expert/page';
 export default function Home() {
 
   const [isOne, setIsOne] = useState(false);
@@ -160,100 +161,8 @@ export default function Home() {
 
 
       {/* new section */}
-      <section className="bg-[#00379e12] pt-24 pb-24">
-        <div className="container m-auto">
-          <h3 className="text-[#1B1B1B] text-[48px] leading-[56px] font-bold text-center">Meet Our  <span className="text-bluecolor">Licensed Experts </span></h3>
-          <p className="text-[#1B1B1B] text-lg leading-30px] font-normal text-center mt-4">Connect with a community of dedicated professionals. Tailored for consultants, our <br />platform fosters collaboration and inspiration for meaningful interactions.</p>
-
-          <div className="mx-auto flex justify-center gap-x-2 mt-[30px] mb-[30px]">
-            <span className="bg-bluecolor rounded-full border border-bluecolor px-10 py-3.5 text-base text-white">Tech</span>
-            <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-10 py-3.5 text-base text-bluecolor">Design</span>
-            <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-10 py-3.5 text-base text-bluecolor">Accounts</span>
-            <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-10 py-3.5 text-base text-bluecolor">SEO</span>
-            <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-10 py-3.5 text-base text-bluecolor">Medical</span>
-            <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-10 py-3.5 text-base text-bluecolor">Product</span>
-          </div>
-          <div className="max-w-[860px] mx-auto flex justify-center gap-x-2  mb-10">
-            <input className="bg-white text-base text-[#1B1B1B] h-[52px] rounded-full px-[30px] font-normal w-[100%]" type="text" placeholder="Search a consultant..." />
-            <button className="bg-bluecolor rounded-full border border-bluecolor px-10 py-3.5 text-base text-white" type="submit">Search</button>
-          </div>
-          <div className="mx-auto flex gap-x-5  lg: lg:grid-cols-3">
-            <article className="bg-white rounded-2xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[33.33%] ">
-              <div className="relative">
-                <Image
-                  className=""
-                  src="/assets/images/client.png"
-                  width={500}
-                  height={226}
-                  alt=""
-                />
-                <span className="bg-[#ff7b00c4] rounded-full py-2 px-5 text-white text-Font15 absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
-              </div>
-              <div className="px-6 py-6">
-                <h5 className="text-xl text-[#1B1B1B] font-bold">Christoph Schneider</h5>
-                <h6 className="text-Font15 text-[#1B1B1B] font-normal my-[3px]">Fagikasade krovung monoligt</h6>
-                <label className="text-Font15 text-bluecolor font-normal ">Product & Tech</label>
-                <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">Javascript</span>
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">HTML</span>
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">CSS</span>
-                </div>
-                <a href="#" className="flex items-center justify-center bg-bluecolor rounded-full px-[14px] py-[6px] text-base text-white text-center font-medium w-[100%] h-[52px]">Book Now</a>
-              </div>
-            </article>
-            <article className="bg-white rounded-2xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[33.33%] ">
-              <div className="relative">
-                <Image
-                  className=""
-                  src="/assets/images/client.png"
-                  width={500}
-                  height={226}
-                  alt=""
-                />
-                <span className="bg-[#ff7b00c4] rounded-full py-2 px-5 text-white text-Font15 absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
-              </div>
-              <div className="px-6 py-6">
-                <h5 className="text-xl text-[#1B1B1B] font-bold">Christoph Schneider</h5>
-                <h6 className="text-Font15 text-[#1B1B1B] font-normal my-[3px]">Fagikasade krovung monoligt</h6>
-                <label className="text-Font15 text-bluecolor font-normal ">Product & Tech</label>
-                <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">Javascript</span>
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">HTML</span>
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">CSS</span>
-                </div>
-                <a href="#" className="flex items-center justify-center bg-bluecolor rounded-full px-[14px] py-[6px] text-base text-white text-center font-medium w-[100%] h-[52px]">Book Now</a>
-              </div>
-            </article>
-            <article className="bg-white rounded-2xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[33.33%] ">
-              <div className="relative">
-                <Image
-                  className=""
-                  src="/assets/images/client.png"
-                  width={500}
-                  height={226}
-                  alt=""
-                />
-                <span className="bg-[#ff7b00c4] rounded-full py-2 px-5 text-white text-Font15 absolute bottom-[15px] left-[15px]">Price starting from <b>$15.99</b></span>
-              </div>
-              <div className="px-6 py-6">
-                <h5 className="text-xl text-[#1B1B1B] font-bold">Christoph Schneider</h5>
-                <h6 className="text-Font15 text-[#1B1B1B] font-normal my-[3px]">Fagikasade krovung monoligt</h6>
-                <label className="text-Font15 text-bluecolor font-normal ">Product & Tech</label>
-                <div className="mx-auto flex gap-x-2 mt-[8px] mb-[15px]">
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">Javascript</span>
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">HTML</span>
-                  <span className="bg-[#E1ECFF] rounded-full border border-bluecolor px-[14px] py-[6px] text-[12px] text-bluecolor">CSS</span>
-                </div>
-                <a href="#" className="flex items-center justify-center bg-bluecolor rounded-full px-[14px] py-[6px] text-base text-white text-center font-medium w-[100%] h-[52px]">Book Now</a>
-              </div>
-            </article>
-          </div>
-          <div className="text-center mt-[40px]">
-            <a href="#" className="m-auto table items-center justify  -center bg-bluecolor rounded-full px-10 py-3.5 text-base text-white text-center font-medium  h-[52px]">See All Consultants</a>
-          </div>
-        </div>
-      </section>
-
+    
+<Meetexpert/>
       {/* new section */}
       <section className="bg-bluecolor pt-24 pb-20">
         <div className="container m-auto">

@@ -30,6 +30,38 @@ body
 .container {
   max-width: 1160px;
 }
+button.slick-arrow {
+  display: none !important;
+}
+.slick-slide {
+  padding: 0 5px;
+}
+ul.slick-dots li button::before {
+  opacity: 0 !important;
+}
+ul.slick-dots li button {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 100px;
+  margin: 0 !important;
+}
+ul.slick-dots li {
+  margin: 0;
+}
+ul.slick-dots li.slick-active button {
+  background: #FF7A00;
+}
+.mobileSlider ul.slick-dots {
+  bottom: -38px;
+}
+.mobileSlider ul.slick-dots li.slick-active button
+{
+  background: #00379E;
+}
+.mobileSlider ul.slick-dots li button {
+  background: #00379e3b;
+}
 @media (max-width:1199px)
 {
   .container {

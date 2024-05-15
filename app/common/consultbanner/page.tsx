@@ -12,12 +12,12 @@ function Consultantbanner({ config: { consultants, becomeConsultant } }: any) {
             <div className="container m-auto">
                 <div className="flex gap-4 items-center pt-40 pb-40 max-lg:pt-20 max-lg:pb-10 max-lg:mt-5 max-md:flex-wrap max-ld:mt-0">
                     <div className="w-[70%] max-lg:w-[100%] max-md:w-[100%]">
-                        {becomeConsultant && <h2 className="text-consultfont text-slate-900 font-bold  leading-none mt-10 max-lg:text-max-lg max-md:text-5xl ">
+                        {becomeConsultant && <h2 className="text-consultfont text-slate-900 font-bold  leading-none mt-10 max-lg:text-max-lg max-md:text-4xl ">
                             Join Our Team<br />  as a
 
                             <span className="relative text-bluecolor"> Consultant!</span> </h2>}
 
-                        {consultants && <h2 className="text-consultfont text-slate-900 font-bold  leading-none mt-10 max-lg:text-max-lg max-md:text-5xl">
+                        {consultants && <h2 className="text-consultfont text-slate-900 font-bold  leading-none mt-10 max-lg:text-max-lg max-md:text-4xl max-md:pr-4">
                             Meet Our  <br />
 
                             <span className="relative text-bluecolor"> Licensed Experts</span> </h2>}
