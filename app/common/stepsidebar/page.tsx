@@ -43,7 +43,13 @@ function StepSidebar() {
                         height={32}
                         alt=""
                     />
-                    <h6 className='opacity-40 flex items-center text-listfont text-bodycolor font-bold mb-3 py-3 max-ippad:text-2xl max-ippadmini:mb-1 max-mobileland:text-xl'><span className='w-[65px] h-[65px] items-center mr-4 justify-center flex border-[10px] border-[#becce6]  rounded-full bg-bluecolor text-white text-2xl font-semibold max-ippadmini:w-[55px] max-ippadmini:h-[55px] max-ippadmini:text-base'>2</span>Personal Information</h6>
+                    <h6 className='opacity-1 flex items-center text-listfont text-bodycolor font-bold mb-3 py-3 max-ippad:text-2xl max-ippadmini:mb-1 max-mobileland:text-xl'><span className='w-[65px] h-[65px] items-center mr-4 justify-center flex border-[10px] border-[#ffdebf]  rounded-full bg-orange text-white text-2xl font-semibold max-ippadmini:w-[55px] max-ippadmini:h-[55px] max-ippadmini:text-base'> <Image
+                        className=""
+                        src="/assets/images/check.png"
+                        width={22}
+                        height={20}
+                        alt=""
+                    /></span>Personal Information</h6>
                 </li>
                 <li className='relative'>
                     <Image
