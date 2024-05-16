@@ -7,6 +7,15 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'ippad': '1640px',
+      'ippadpro': '1400px',
+      'ippadmini': '1200px',
+      'mobile': '1024px',
+      'mobileland': '767px',
+    
+    },
+
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -43,6 +52,7 @@ const config: Config = {
       },
 
     },
+ 
   },
   plugins: [],
 };

@@ -10,7 +10,7 @@ import Oursteps from './common/oursteps/page';
 export default function Home() {
   var settings = {
     dots: true,
-    arrow:false,
+    arrow: false,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -27,7 +27,7 @@ export default function Home() {
           dots: true
         }
       },
-      
+
     ]
 
 
@@ -40,7 +40,7 @@ export default function Home() {
 
   const toggleAccordion = () => {
     setIsOne(!isOne);
- 
+
   };
   const toggleAccordionOne = () => {
     setIsTow(!isTow);
@@ -55,7 +55,7 @@ export default function Home() {
     <>
       <section className="">
         <Image
-          className="max-lg:h-[902px] max-lg:object-cover max-md:h-[850px]"
+          className="max-lg:h-[902px] max-lg:object-cover max-md:h-[850px] "
           src="/assets/images/banner.png"
           width={1920}
           height={500}
@@ -64,7 +64,7 @@ export default function Home() {
         <div className="container m-auto">
           <div className="grid gap-4 items-center absolute top-[65%] translate-y-[-50%] w-[80%] max-lg:top-[75%] max-md:w-[95%]">
             <div className="w-[100%]">
-              <span className="text-[orange] text-lg font-regular bg-[#ffffff12] border-[1px] border-[orange] rounded-full px-7 py-3.5 mb-[10px] max-md:text-base md:text-sm">Unlocking Opportunities</span>
+              <span className="text-orange text-lg font-regular bg-[#ffffff12] border-[1px] border-orange rounded-full px-7 py-3.5 mb-[10px] max-md:text-base md:text-sm">Unlocking Opportunities</span>
               <h2 className="text-consultfont text-white font-bold  leading-[88px] mt-10 max-lg:text-7xl max-md:text-ipadheadingFont max-md:pr-10"><span className="relative">
                 iKnowly
                 <Image
@@ -74,11 +74,11 @@ export default function Home() {
                   height={19}
                   alt=""
                 />
-              </span><br/> Community, Hub </h2>
+              </span><br /> Community, Hub </h2>
               <p className="text-white text-lg leading-7 font-regular mt-4 mb-5 max-lg:text-lg max-md:text-base">For students, job seekers, and professionals</p>
               <div className="flex items-center max-md:flex-wrap">
                 <a href="#" className="bg-bluecolor text-white px-11 py-5 w-auto mr-2.5 rounded-full text-base font-regular max-md:w-full max-md:text-center max-md:mb-3">Book a consultation</a>
-                <a href="#" className="bg-[orange] text-white px-11 py-5 w-auto mr-2.5 rounded-full text-base font-regular max-md:w-full max-md:text-center">Become a Consultant</a>
+                <a href="#" className="bg-orange text-white px-11 py-5 w-auto mr-2.5 rounded-full text-base font-regular max-md:w-full max-md:text-center">Become a Consultant</a>
               </div>
               <div className="text-white text-base font-regular my-[15px]">
                 <p className="my-[15px] max-md:text-base">Trusted by industry leaders</p>
@@ -129,11 +129,11 @@ export default function Home() {
       {/* new section */}
       <section className="mt-[140px] pb-[120px] max-lg:mt-20 max-lg:pb-20 max-md:mt-14 max-md:pb-14" >
         <div className="container m-auto">
-          <h3 className="text-bodycolor text-headingFont leading-[56px] font-bold text-center max-lg:text-4xl max-md:text-listfont max-md:leading-8 max-md:px-3">We&apos;re revolutionizing <span className="text-bluecolor">educational & career <br className='max-lg:hidden'/>consulting </span>to empower your journey.</h3>
-          <p className="text-bodycolor text-lg leading-30px] font-regular text-center mt-[10px] max-lg:text-base max-md:text-sm">Our goal is to assist you in building your career, connect you with experts who share your aspirations.<br className='max-lg:hidden'/> We help you reach your full potential through a transformative learning experience.</p>
+          <h3 className="text-bodycolor text-headingFont leading-[56px] font-bold text-center max-lg:text-4xl max-md:text-listfont max-md:leading-8 max-md:px-3">We&apos;re revolutionizing <span className="text-bluecolor">educational & career <br className='max-lg:hidden' />consulting </span>to empower your journey.</h3>
+          <p className="text-bodycolor text-lg leading-30px] font-regular text-center mt-[10px] max-lg:text-base max-md:text-sm">Our goal is to assist you in building your career, connect you with experts who share your aspirations.<br className='max-lg:hidden' /> We help you reach your full potential through a transformative learning experience.</p>
           <div className="flex items-center justify-center mt-8 mb-[50px] max-md:flex-wrap max-md:mt-4 max-md:mb-7">
             <a href="#" className="bg-bluecolor text-white px-11 py-5 w-auto mr-2.5 rounded-full text-base font-regular max-md:w-full max-md:text-center">Book a consultation</a>
-            <a href="#" className="bg-[orange] text-white px-11 py-5 w-auto mr-2.5 rounded-full text-base font-regular max-md:w-full max-md:text-center max-md:mt-3">Become a Consultant</a>
+            <a href="#" className="bg-orange text-white px-11 py-5 w-auto mr-2.5 rounded-full text-base font-regular max-md:w-full max-md:text-center max-md:mt-3">Become a Consultant</a>
           </div>
           <div className="mx-auto flex gap-x-5  lg: lg:grid-cols-4 max-lg:flex-wrap max-lg:gap-y-6">
             <article className="border-bluecolor border-2 p-5 rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%] max-lg:w-[48.5%] max-md:w-full ">
@@ -147,7 +147,7 @@ export default function Home() {
               <h5 className="text-bodycolor text-lg leading-7 semibold my-2.5 font-semibold">Tailored Guidance</h5>
               <span className="text-bodycolor text-Font15 leading-6 font-regular">Receive personalized advice from experienced consultants to navigate your educational and professional journey in Germany.</span>
             </article>
-            <article className="border-[orange] border-2 p-5 rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%] max-lg:w-[48.5%] max-md:w-full">
+            <article className="border-orange border-2 p-5 rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%] max-lg:w-[48.5%] max-md:w-full">
               <Image
                 className=""
                 src="/assets/images/ictwo.png"
@@ -169,7 +169,7 @@ export default function Home() {
               <h5 className="text-bodycolor text-lg leading-7 semibold my-2.5 font-semibold">Flexible Options</h5>
               <span className="text-bodycolor text-Font15 leading-6 font-regular">Choose from a range of consultants and book sessions with experts at your own convenience.</span>
             </article>
-            <article className="border-[orange] border-2 p-5 rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%] max-lg:w-[48.5%] max-md:w-full">
+            <article className="border-orange border-2 p-5 rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[25%] max-lg:w-[48.5%] max-md:w-full">
               <Image
                 className=""
                 src="/assets/images/icfour.png"
@@ -191,7 +191,7 @@ export default function Home() {
       <section className="bg-[#00379e12] pt-24 pb-24 max-lg:pt-20 max-lg:pb-20 max-md:pt-10 max-md:pb-10 ">
         <div className="container m-auto">
           <h3 className="text-bodycolor text-headingFont leading-[56px] font-bold text-center max-lg:text-ipadheadingFont max-md:text-listfont">Meet Our  <span className="text-bluecolor">Licensed Experts </span></h3>
-          <p className="text-bodycolor text-lg leading-30px font-regular text-center mt-4 max-lg:text-base max-md:text-sm	">Connect with a community of dedicated professionals. Tailored for consultants, our <br className='max-lg:hidden'/>platform fosters collaboration and inspiration for meaningful interactions.</p>
+          <p className="text-bodycolor text-lg leading-30px font-regular text-center mt-4 max-lg:text-base max-md:text-sm	">Connect with a community of dedicated professionals. Tailored for consultants, our <br className='max-lg:hidden' />platform fosters collaboration and inspiration for meaningful interactions.</p>
 
           <div className="mx-auto flex justify-center gap-x-2 mt-8 mb-[30px] max-lg:flex-wrap max-lg:gap-x-5 max-lg:gap-y-3 max-md:gap-x-3">
             <span className="bg-bluecolor rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-white font-semibold max-md:text-xs max-md:px-7">Tech</span>
@@ -205,7 +205,7 @@ export default function Home() {
             <input className="bg-white text-base text-bodycolor h-[52px] rounded-full px-7 font-semibold w-[100%]" type="text" placeholder="Search a consultant..." />
             <button className="bg-bluecolor rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-white font-semibold" type="submit">Search</button>
           </div>
-         <Meetexpert config={{slider:true, teams:false}}/>
+          <Meetexpert config={{ slider: true, teams: false }} />
           <div className="text-center mt-10">
             <a href="#" className="m-auto table items-center justify-center bg-bluecolor rounded-full px-10 py-3.5 text-base text-white text-center font-medium  h-[52px] max-md:mt-16">See All Consultants</a>
           </div>
@@ -359,84 +359,84 @@ export default function Home() {
           </div>
           {/* mobile-slider */}
           <div className='lg:hidden'>
-          <Slider {...settings}>
-          <article className="mb-[18px] bg-white border-bluecolor border-2 p-[25px] rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
-              <Image
-                className="mb-[13px]"
-                src="/assets/images/star.png"
-                width={136}
-                height={24}
-                alt=""
-              />
-              <p className="text-bodycolor text-base leading-7 font-regular">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
-              <div className="flex items-center mt-[16px] gap-x-3">
+            <Slider {...settings}>
+              <article className="mb-[18px] bg-white border-bluecolor border-2 p-[25px] rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
                 <Image
-                  className=""
-                  src="/assets/images/testo.png"
-                  width={40}
-                  height={40}
+                  className="mb-[13px]"
+                  src="/assets/images/star.png"
+                  width={136}
+                  height={24}
                   alt=""
                 />
-                <div className="">
-                  <h5 className="text-base text-bodycolor font-medium">Clara Bertoletti</h5>
-                  <h6 className="text-[14px] text-bodycolor font-regular">MUI lover</h6>
+                <p className="text-bodycolor text-base leading-7 font-regular">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+                <div className="flex items-center mt-[16px] gap-x-3">
+                  <Image
+                    className=""
+                    src="/assets/images/testo.png"
+                    width={40}
+                    height={40}
+                    alt=""
+                  />
+                  <div className="">
+                    <h5 className="text-base text-bodycolor font-medium">Clara Bertoletti</h5>
+                    <h6 className="text-[14px] text-bodycolor font-regular">MUI lover</h6>
+                  </div>
                 </div>
-              </div>
-            </article>
-            <article className="mb-[18px] bg-white border-bluecolor border-2 p-[25px] rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
-              <Image
-                className="mb-[13px]"
-                src="/assets/images/star.png"
-                width={136}
-                height={24}
-                alt=""
-              />
-              <p className="text-bodycolor text-base leading-7 font-regular">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
-              <div className="flex items-center mt-[16px] gap-x-3">
+              </article>
+              <article className="mb-[18px] bg-white border-bluecolor border-2 p-[25px] rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
                 <Image
-                  className=""
-                  src="/assets/images/testo.png"
-                  width={40}
-                  height={40}
+                  className="mb-[13px]"
+                  src="/assets/images/star.png"
+                  width={136}
+                  height={24}
                   alt=""
                 />
-                <div className="">
-                  <h5 className="text-base text-bodycolor font-medium">Clara Bertoletti</h5>
-                  <h6 className="text-[14px] text-bodycolor font-regular">MUI lover</h6>
+                <p className="text-bodycolor text-base leading-7 font-regular">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+                <div className="flex items-center mt-[16px] gap-x-3">
+                  <Image
+                    className=""
+                    src="/assets/images/testo.png"
+                    width={40}
+                    height={40}
+                    alt=""
+                  />
+                  <div className="">
+                    <h5 className="text-base text-bodycolor font-medium">Clara Bertoletti</h5>
+                    <h6 className="text-[14px] text-bodycolor font-regular">MUI lover</h6>
+                  </div>
                 </div>
-              </div>
-            </article>
-            <article className="mb-[18px] bg-white border-bluecolor border-2 p-[25px] rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
-              <Image
-                className="mb-[13px]"
-                src="/assets/images/star.png"
-                width={136}
-                height={24}
-                alt=""
-              />
-              <p className="text-bodycolor text-base leading-7 font-regular">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
-              <div className="flex items-center mt-[16px] gap-x-3">
+              </article>
+              <article className="mb-[18px] bg-white border-bluecolor border-2 p-[25px] rounded-xl shadow-[0_20px_50px_-13px_rgba(0,0,0,0.2)] w-[32.3%] ">
                 <Image
-                  className=""
-                  src="/assets/images/testo.png"
-                  width={40}
-                  height={40}
+                  className="mb-[13px]"
+                  src="/assets/images/star.png"
+                  width={136}
+                  height={24}
                   alt=""
                 />
-                <div className="">
-                  <h5 className="text-base text-bodycolor font-medium">Clara Bertoletti</h5>
-                  <h6 className="text-[14px] text-bodycolor font-regular">MUI lover</h6>
+                <p className="text-bodycolor text-base leading-7 font-regular">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Vivamus viverra auctor velit. Vestibulum id velit aliquam, placerat lacus.</p>
+                <div className="flex items-center mt-[16px] gap-x-3">
+                  <Image
+                    className=""
+                    src="/assets/images/testo.png"
+                    width={40}
+                    height={40}
+                    alt=""
+                  />
+                  <div className="">
+                    <h5 className="text-base text-bodycolor font-medium">Clara Bertoletti</h5>
+                    <h6 className="text-[14px] text-bodycolor font-regular">MUI lover</h6>
+                  </div>
                 </div>
-              </div>
-            </article>
-  
-    </Slider>
-    </div>
+              </article>
+
+            </Slider>
+          </div>
         </div>
       </section>
 
       {/* new section */}
-      <Oursteps config={{home: false, becomeStep: true}}/>
+      <Oursteps config={{ home: false, becomeStep: true }} />
       {/* new section */}
       <section className="pt-20 pb-20 bg-[#00379e12] max-lg:pt-13 max-lg:pb-13 max-md:pt-12 max-md:pb-12">
         <div className="container m-auto">

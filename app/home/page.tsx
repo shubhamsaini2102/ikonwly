@@ -13,7 +13,7 @@ export default function Home() {
 
   const toggleAccordion = () => {
     setIsOne(!isOne);
- 
+
   };
   const toggleAccordionOne = () => {
     setIsTow(!isTow);
@@ -161,8 +161,30 @@ export default function Home() {
 
 
       {/* new section */}
-    
-<Meetexpert/>
+
+      <section className="bg-[#00379e12] pt-24 pb-24 max-lg:pt-20 max-lg:pb-20 max-md:pt-10 max-md:pb-10 ">
+        <div className="container m-auto">
+          <h3 className="text-bodycolor text-headingFont leading-[56px] font-bold text-center max-lg:text-ipadheadingFont max-md:text-listfont">Meet Our  <span className="text-bluecolor">Licensed Experts </span></h3>
+          <p className="text-bodycolor text-lg leading-30px font-regular text-center mt-4 max-lg:text-base max-md:text-sm	">Connect with a community of dedicated professionals. Tailored for consultants, our <br className='max-lg:hidden' />platform fosters collaboration and inspiration for meaningful interactions.</p>
+
+          <div className="mx-auto flex justify-center gap-x-2 mt-8 mb-[30px] max-lg:flex-wrap max-lg:gap-x-5 max-lg:gap-y-3 max-md:gap-x-3">
+            <span className="bg-bluecolor rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-white font-semibold max-md:text-xs max-md:px-7">Tech</span>
+            <span className="bg-[#E1ECFF] rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-bluecolor font-semibold max-md:text-xs max-md:px-7" >Design</span>
+            <span className="bg-[#E1ECFF] rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-bluecolor font-semibold max-md:text-xs max-md:px-7">Accounts</span>
+            <span className="bg-[#E1ECFF] rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-bluecolor font-semibold max-md:text-xs max-md:px-7">SEO</span>
+            <span className="bg-[#E1ECFF] rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-bluecolor font-semibold max-md:text-xs max-md:px-7">Medical</span>
+            <span className="bg-[#E1ECFF] rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-bluecolor font-semibold max-md:text-xs max-md:px-7">Product</span>
+          </div>
+          <div className="max-w-[860px] mx-auto flex justify-center gap-x-2  mb-10 max-lg:hidden">
+            <input className="bg-white text-base text-bodycolor h-[52px] rounded-full px-7 font-semibold w-[100%]" type="text" placeholder="Search a consultant..." />
+            <button className="bg-bluecolor rounded-full border-2 border-bluecolor px-10 py-3.5 text-base text-white font-semibold" type="submit">Search</button>
+          </div>
+          <Meetexpert config={{ slider: true, teams: false }} />
+          <div className="text-center mt-10">
+            <a href="#" className="m-auto table items-center justify-center bg-bluecolor rounded-full px-10 py-3.5 text-base text-white text-center font-medium  h-[52px] max-md:mt-16">See All Consultants</a>
+          </div>
+        </div>
+      </section>
       {/* new section */}
       <section className="bg-bluecolor pt-24 pb-20">
         <div className="container m-auto">
@@ -312,7 +334,7 @@ export default function Home() {
       </section>
 
       {/* new section */}
-     <Oursteps config={{home: false, becomeStep: true}}/>
+      <Oursteps config={{ home: false, becomeStep: true }} />
       {/* new section */}
       <section className="pt-20 pb-20 bg-[#00379e12]">
         <div className="container m-auto">
